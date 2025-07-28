@@ -10,14 +10,15 @@ import EditNote from "./components/edit/EditNote";
 function App() {
   return (
     <Router>
-      <Navbar />
+      <div>
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/create" element={<CreateNote />} />
-        <Route path="/edit/:id" element={<EditNote />} />
-      </Routes>
-
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/create" element={<CreateNote />} />
+          <Route path="/edit/:id" element={<EditNote />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

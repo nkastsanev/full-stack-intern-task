@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    background-color: white;
+    padding: 11px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+

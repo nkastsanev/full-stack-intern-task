@@ -27,7 +27,7 @@ export default function EditNote() {
     return (
         <div>
             <h1>Edit Note</h1>
-            <NoteForm onSubmit={handleUpdate} />
+            <NoteForm onSubmit={handleUpdate} editingForm={note} />
         </div>
     )
 }
